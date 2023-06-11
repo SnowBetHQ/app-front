@@ -1,3 +1,3 @@
-const contractBTC = '0x3B92fEa7BBd8F88bD147138f8e8872090ce90120';
+const contractBTC = '0x1EA6B3F721740ba2181CF866CE641e19746BbE5B';
 
 export default contractBTC;
