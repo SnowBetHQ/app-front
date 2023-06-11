@@ -123,26 +123,30 @@ const BetETH = () => {
 
     return (
         <div>
-            <div className="mt-2 flex gap-2 grid-cols-3 px-2">
+            <div className="mt-2 flex justify-center">
                 <button
                     className="card w-full flex-col justify-center items-center rounded border border-teal-500 bg-teal-500 px-8 shadow"
                     onClick={betLow}
+                    style={{ marginRight: "2px" }}
                 >
                     <span className="text-xs mx-auto font-bold">ETHLOW</span>
                 </button>
                 <button
                     className="card w-full flex-col justify-center items-center rounded border border-teal-500 bg-teal-500 px-8 shadow"
                     onClick={betRange}
+                    style={{ margin: "0 2px" }}
                 >
                     <span className="text-xs font-bold">ETHRANGE</span>
                 </button>
                 <button
                     className="card w-full flex-col justify-center items-center rounded border border-teal-500 bg-teal-500 px-8 shadow"
                     onClick={betHigh}
+                    style={{ marginLeft: "2px" }}
                 >
                     <span className="text-xs font-bold">ETHUP</span>
                 </button>
             </div>
+
             <div className="pt-2">
                 <button
                     className="card w-full flex-col justify-center items-center rounded border border-teal-500 bg-teal-500 px-8 shadow"

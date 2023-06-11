@@ -3,9 +3,11 @@ import ETHchart from '../charts/eth'
 import BTCchart from '../charts/btc'
 
 import BetETH from '../bet/BetETH'
+import BetBTC from '../bet/BetBTC'
 import Web3 from 'web3';
 import ContractABI from '../utils/ABI.json';
 import contractETH from '@/utils/contractAddress';
+import contractBTC from '@/utils/contractBTC';
 
 
 import { useEffect, useState } from 'react'
@@ -133,6 +135,7 @@ const PriceLive = () => {
                                 </div>
                             </div>
                         </div>
+                        <BetBTC />
 
                     </div>
                 </div>

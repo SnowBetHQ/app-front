@@ -1,6 +1,3 @@
-const contractAdd = '0xcF3f5fCedb0258656053BFC4e9BD3eAA0252EDC2';
-
-const contractETH = ''
-const contractBTC = ''
+const contractAdd = '0x1a02b3350F01f2b6F5dDf6BBB194c475d2A769f9';
 
 export default contractAdd;
