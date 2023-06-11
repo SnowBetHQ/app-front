@@ -1,3 +1,3 @@
-const contractAdd = '0x9f7720b4533d94c2e628720E590cC7d8825e5557';
+const contractAdd = '0x534A00c75715F1AE2Db5592CdA572AC89D86e810';
 
 export default contractAdd;
